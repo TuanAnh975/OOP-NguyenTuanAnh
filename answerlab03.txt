@@ -1,0 +1,6 @@
+Java is a pass-by-value programming language. When an argument is passed to a method in Java, the value of the argument is copied and passed to the method. This means that any changes made to the argument within the method will not affect the original value outside the method.
+However, it's important to note that when passing objects as arguments, it's the reference to the object that is passed, not the object itself. So while the reference is passed by value, the object can still be modified within the method, and those changes will be reflected outside the method.
+In summary:
+
+For primitive data types (e.g., int, double, boolean), Java is pass-by-value.
+For object types, Java is pass-by-reference-of-value, meaning the reference to the object is passed by value.
